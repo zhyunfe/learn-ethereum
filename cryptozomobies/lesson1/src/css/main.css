@@ -1,0 +1,18 @@
+
+#header {
+    background-color: aquamarine;
+    width: auto;
+    height: 150px;
+}
+
+#center {
+    width: auto;
+    height: 400px;
+    
+}
+
+#footer {
+    background-color: rosybrown;
+    width: auto;
+    height: 150px;
+}

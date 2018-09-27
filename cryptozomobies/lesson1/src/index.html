@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>僵尸工场</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        这里是头部
+    </div>
+    <div id="center" class="row">
+        <div class="col-md-5">
+            <input type="text" class="form-control" name="zombie" id="zombie" placeholder="在这里输入僵尸的姓名">
+            <button class="create btn btn-default">创建僵尸</button>
+        </div>
+        <div class="col-md-3">
+            <table class="table table-default reporter"></table>
+        </div>
+        <div class="col-md-4">
+            <table class="table table-hover">
+                <tr>
+                    <td>address</td>
+                    <td id="address"></td>
+                </tr>
+                <tr>
+                    <td>account</td>
+                    <td id="account"></td>
+                </tr>
+                <tr>
+                    <td>昵称</td>
+                    <td id="name"></td>
+                </tr>
+                <tr>
+                    <td>姓名</td>
+                    <td id="title"></td>
+                </tr>
+                <tr>
+                    <td>ID</td>
+                    <td id="id"></td>
+                </tr>
+                <tr>
+                    <td>DNA</td>
+                    <td id="dna"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>控制台</h3>
+    </div>
+</body>
+
+</html>
