@@ -1,0 +1,25 @@
+INFO [08-26|16:15:39] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-26|16:15:39] Starting peer-to-peer node               instance=Geth/v1.8.1-stable/darwin-amd64/go1.10
+INFO [08-26|16:15:39] Allocated cache and file handles         database=/Users/zhyunfe/Library/Ethereum/geth/chaindata cache=768 handles=1024
+INFO [08-26|16:15:39] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Engine: ethash}"
+INFO [08-26|16:15:39] Disk storage enabled for ethash caches   dir=/Users/zhyunfe/Library/Ethereum/geth/ethash count=3
+INFO [08-26|16:15:39] Disk storage enabled for ethash DAGs     dir=/Users/zhyunfe/.ethash                      count=2
+INFO [08-26|16:15:39] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [08-26|16:15:39] Loaded most recent local header          number=576 hash=41a746…6a8b38 td=11369575252446
+INFO [08-26|16:15:39] Loaded most recent local full block      number=0   hash=d4e567…cb8fa3 td=17179869184
+INFO [08-26|16:15:39] Loaded most recent local fast block      number=6   hash=1f1aed…6b326e td=120116547579
+INFO [08-26|16:15:39] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-26|16:15:39] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-26|16:15:39] Starting P2P networking 
+INFO [08-26|16:15:41] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-26|16:15:41] UDP listener up                          self=enode://4de8bdd449891758e168de1ed022a78d6f13963170b9a3234d8d8218b49bd4361be99ba4b5a64afda2a2c68b350123cb61fa1a2d13bb2e5279ca40ed49993da4@10.198.1.13:30303
+INFO [08-26|16:15:41] RLPx listener up                         self=enode://4de8bdd449891758e168de1ed022a78d6f13963170b9a3234d8d8218b49bd4361be99ba4b5a64afda2a2c68b350123cb61fa1a2d13bb2e5279ca40ed49993da4@10.198.1.13:30303
+INFO [08-26|16:15:41] IPC endpoint opened                      url=/Users/zhyunfe/Library/Ethereum/geth.ipc
+INFO [08-26|16:15:41] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-26|16:15:41] Etherbase automatically configured       address=0xb2f5422b93ed439770b20c8076fA20EC6Ea458FE
+INFO [08-26|16:16:07] IPC endpoint closed                      endpoint=/Users/zhyunfe/Library/Ethereum/geth.ipc
+INFO [08-26|16:16:07] Blockchain manager stopped 
+INFO [08-26|16:16:07] Stopping Ethereum protocol 
+INFO [08-26|16:16:07] Ethereum protocol stopped 
+INFO [08-26|16:16:07] Transaction pool stopped 
+INFO [08-26|16:16:07] Database closed                          database=/Users/zhyunfe/Library/Ethereum/geth/chaindata

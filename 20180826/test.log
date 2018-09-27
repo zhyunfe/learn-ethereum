@@ -1,0 +1,111 @@
+INFO [08-26|16:04:42] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-26|16:04:44] Using developer account                  address=0xB19E05893c8D4018d53d4de4305a87468352cB04
+INFO [08-26|16:04:44] Starting peer-to-peer node               instance=Geth/v1.8.1-stable/darwin-amd64/go1.10
+INFO [08-26|16:04:44] Allocated cache and file handles         database=/mnt/study/eth/demo/20180826/testNet/geth/chaindata cache=768 handles=1024
+INFO [08-26|16:04:44] Writing custom genesis block 
+INFO [08-26|16:04:44] Persisted trie from memory database      nodes=11 size=2.17kB time=50.168µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-26|16:04:44] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Engine: clique}"
+INFO [08-26|16:04:44] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [08-26|16:04:44] Loaded most recent local header          number=0 hash=42ec35…78aaa2 td=1
+INFO [08-26|16:04:44] Loaded most recent local full block      number=0 hash=42ec35…78aaa2 td=1
+INFO [08-26|16:04:44] Loaded most recent local fast block      number=0 hash=42ec35…78aaa2 td=1
+INFO [08-26|16:04:44] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-26|16:04:44] Starting P2P networking 
+INFO [08-26|16:04:44] started whisper v.5.0 
+INFO [08-26|16:04:44] RLPx listener up                         self="enode://fde87126ea0b3a990e6b0b8cf381c674fdc1faca4cc2b567c1a7b9f285b061d8ef5dc614b02ac325a7fcf8c9e3e92e503efd92ec050b83cbbd9faee403297459@[::]:53921?discport=0"
+INFO [08-26|16:04:44] IPC endpoint opened                      url=/mnt/study/eth/demo/20180826/testNet/geth.ipc
+INFO [08-26|16:04:44] Transaction pool price threshold updated price=18000000000
+INFO [08-26|16:04:44] Etherbase automatically configured       address=0xB19E05893c8D4018d53d4de4305a87468352cB04
+INFO [08-26|16:04:44] Starting mining operation 
+INFO [08-26|16:04:44] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=72.718µs
+WARN [08-26|16:04:44] Block sealing failed                     err="waiting for transactions"
+INFO [08-26|16:04:46] Mapped network port                      proto=tcp extport=53921 intport=53921 interface="UPNP IGDv1-IP1"
+INFO [08-26|16:07:54] Submitted transaction                    fullhash=0x60cd69f25984aab0c45f1a8fff332ad5856558173b9290a34893f9cd8b0a6573 recipient=0x05EE17f344498cB51c41D7463F667Cb9a334F49f
+INFO [08-26|16:07:54] Commit new mining work                   number=1 txs=1 uncles=0 elapsed=423.798µs
+INFO [08-26|16:07:54] Successfully sealed new block            number=1 hash=229b08…90048c
+INFO [08-26|16:07:54] 🔨 mined potential block                  number=1 hash=229b08…90048c
+INFO [08-26|16:07:54] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=504.189µs
+WARN [08-26|16:07:54] Block sealing failed                     err="waiting for transactions"
+INFO [08-26|16:11:06] Submitted contract creation              fullhash=0x433ca80e1576996784f845374e52c5ec0b81362fe139e525dc5b8dc3ab7ec99b contract=0x93f736d1c9e5e39fA199147E7001e7301f948F87
+INFO [08-26|16:11:06] Commit new mining work                   number=2 txs=1 uncles=0 elapsed=471.302µs
+INFO [08-26|16:11:06] Successfully sealed new block            number=2 hash=1d86da…bb1c5a
+INFO [08-26|16:11:06] 🔨 mined potential block                  number=2 hash=1d86da…bb1c5a
+INFO [08-26|16:11:06] Commit new mining work                   number=3 txs=0 uncles=0 elapsed=506.474µs
+WARN [08-26|16:11:06] Block sealing failed                     err="waiting for transactions"
+INFO [08-26|16:15:05] IPC endpoint closed                      endpoint=/mnt/study/eth/demo/20180826/testNet/geth.ipc
+ERROR[08-26|16:15:05] Dangling trie nodes after full cleanup 
+INFO [08-26|16:15:05] Blockchain manager stopped 
+INFO [08-26|16:15:05] Stopping Ethereum protocol 
+INFO [08-26|16:15:05] Ethereum protocol stopped 
+INFO [08-26|16:15:05] Transaction pool stopped 
+INFO [08-26|16:15:05] Database closed                          database=/mnt/study/eth/demo/20180826/testNet/geth/chaindata
+INFO [08-26|16:15:05] whisper stopped 
+INFO [08-26|16:18:19] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-26|16:18:20] Using developer account                  address=0xB19E05893c8D4018d53d4de4305a87468352cB04
+INFO [08-26|16:18:20] Starting peer-to-peer node               instance=Geth/v1.8.1-stable/darwin-amd64/go1.10
+INFO [08-26|16:18:20] Allocated cache and file handles         database=/mnt/study/eth/demo/20180826/testNet/geth/chaindata cache=768 handles=1024
+INFO [08-26|16:18:20] Persisted trie from memory database      nodes=11 size=2.17kB time=16.618µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-26|16:18:20] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Engine: clique}"
+INFO [08-26|16:18:20] Initialising Ethereum protocol           versions="[63 62]" network=1
+WARN [08-26|16:18:20] Head state missing, repairing chain      number=2 hash=1d86da…bb1c5a
+INFO [08-26|16:18:20] Rewound blockchain to past state         number=0 hash=42ec35…78aaa2
+INFO [08-26|16:18:20] Loaded most recent local header          number=2 hash=1d86da…bb1c5a td=5
+INFO [08-26|16:18:20] Loaded most recent local full block      number=0 hash=42ec35…78aaa2 td=1
+INFO [08-26|16:18:20] Loaded most recent local fast block      number=2 hash=1d86da…bb1c5a td=5
+INFO [08-26|16:18:20] Loaded local transaction journal         transactions=2 dropped=1
+INFO [08-26|16:18:20] Regenerated local transaction journal    transactions=1 accounts=1
+INFO [08-26|16:18:20] Starting P2P networking 
+INFO [08-26|16:18:20] RLPx listener up                         self="enode://fde87126ea0b3a990e6b0b8cf381c674fdc1faca4cc2b567c1a7b9f285b061d8ef5dc614b02ac325a7fcf8c9e3e92e503efd92ec050b83cbbd9faee403297459@[::]:54363?discport=0"
+INFO [08-26|16:18:20] started whisper v.5.0 
+INFO [08-26|16:18:20] IPC endpoint opened                      url=/mnt/study/eth/demo/20180826/testNet/geth.ipc
+INFO [08-26|16:18:20] Transaction pool price threshold updated price=18000000000
+INFO [08-26|16:18:20] Etherbase automatically configured       address=0xB19E05893c8D4018d53d4de4305a87468352cB04
+INFO [08-26|16:18:20] Starting mining operation 
+INFO [08-26|16:18:20] Commit new mining work                   number=1 txs=1 uncles=0 elapsed=240.727µs
+INFO [08-26|16:18:20] Successfully sealed new block            number=1 hash=112feb…77d96c
+INFO [08-26|16:18:20] 🔨 mined potential block                  number=1 hash=112feb…77d96c
+INFO [08-26|16:18:20] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=359.091µs
+WARN [08-26|16:18:20] Block sealing failed                     err="waiting for transactions"
+INFO [08-26|16:18:22] Mapped network port                      proto=tcp extport=54363 intport=54363 interface="UPNP IGDv1-IP1"
+INFO [08-26|16:54:22] IPC endpoint closed                      endpoint=/mnt/study/eth/demo/20180826/testNet/geth.ipc
+ERROR[08-26|16:54:22] Dangling trie nodes after full cleanup 
+INFO [08-26|16:54:22] Blockchain manager stopped 
+INFO [08-26|16:54:22] Stopping Ethereum protocol 
+INFO [08-26|16:54:22] Ethereum protocol stopped 
+INFO [08-26|16:54:22] Transaction pool stopped 
+INFO [08-26|16:54:22] Database closed                          database=/mnt/study/eth/demo/20180826/testNet/geth/chaindata
+INFO [08-26|16:54:22] whisper stopped 
+INFO [08-28|10:17:37] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-28|10:17:38] Using developer account                  address=0xB19E05893c8D4018d53d4de4305a87468352cB04
+INFO [08-28|10:17:38] Starting peer-to-peer node               instance=Geth/v1.8.1-stable/darwin-amd64/go1.10
+INFO [08-28|10:17:38] Allocated cache and file handles         database=/mnt/study/eth/demo/20180826/testNet/geth/chaindata cache=768 handles=1024
+INFO [08-28|10:17:38] Persisted trie from memory database      nodes=11 size=2.17kB time=32.748µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-28|10:17:38] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Engine: clique}"
+INFO [08-28|10:17:38] Initialising Ethereum protocol           versions="[63 62]" network=1
+WARN [08-28|10:17:38] Head state missing, repairing chain      number=1 hash=112feb…77d96c
+INFO [08-28|10:17:38] Rewound blockchain to past state         number=0 hash=42ec35…78aaa2
+INFO [08-28|10:17:38] Loaded most recent local header          number=1 hash=112feb…77d96c td=3
+INFO [08-28|10:17:38] Loaded most recent local full block      number=0 hash=42ec35…78aaa2 td=1
+INFO [08-28|10:17:38] Loaded most recent local fast block      number=1 hash=112feb…77d96c td=3
+INFO [08-28|10:17:38] Loaded local transaction journal         transactions=1 dropped=0
+INFO [08-28|10:17:38] Regenerated local transaction journal    transactions=1 accounts=1
+INFO [08-28|10:17:38] Starting P2P networking 
+INFO [08-28|10:17:38] started whisper v.5.0 
+INFO [08-28|10:17:38] RLPx listener up                         self="enode://fde87126ea0b3a990e6b0b8cf381c674fdc1faca4cc2b567c1a7b9f285b061d8ef5dc614b02ac325a7fcf8c9e3e92e503efd92ec050b83cbbd9faee403297459@[::]:57787?discport=0"
+INFO [08-28|10:17:38] IPC endpoint opened                      url=/mnt/study/eth/demo/20180826/testNet/geth.ipc
+INFO [08-28|10:17:38] Transaction pool price threshold updated price=18000000000
+INFO [08-28|10:17:38] Etherbase automatically configured       address=0xB19E05893c8D4018d53d4de4305a87468352cB04
+INFO [08-28|10:17:38] Starting mining operation 
+INFO [08-28|10:17:38] Commit new mining work                   number=1 txs=1 uncles=0 elapsed=1.041ms
+INFO [08-28|10:17:38] Successfully sealed new block            number=1 hash=03996c…0ef31a
+INFO [08-28|10:17:38] 🔨 mined potential block                  number=1 hash=03996c…0ef31a
+INFO [08-28|10:17:38] Commit new mining work                   number=2 txs=0 uncles=0 elapsed=564.83µs
+WARN [08-28|10:17:38] Block sealing failed                     err="waiting for transactions"
+INFO [08-28|10:31:51] IPC endpoint closed                      endpoint=/mnt/study/eth/demo/20180826/testNet/geth.ipc
+ERROR[08-28|10:31:51] Dangling trie nodes after full cleanup 
+INFO [08-28|10:31:51] Blockchain manager stopped 
+INFO [08-28|10:31:51] Stopping Ethereum protocol 
+INFO [08-28|10:31:51] Ethereum protocol stopped 
+INFO [08-28|10:31:51] Transaction pool stopped 
+INFO [08-28|10:31:51] Database closed                          database=/mnt/study/eth/demo/20180826/testNet/geth/chaindata
+INFO [08-28|10:31:51] whisper stopped 

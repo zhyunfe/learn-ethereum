@@ -1,0 +1,32 @@
+=============== Aug 26, 2018 (CST) ===============
+16:04:44.099829 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:04:44.100684 db@open opening
+16:04:44.113974 version@stat F·[] S·0B[] Sc·[]
+16:04:44.114384 db@janitor F·2 G·0
+16:04:44.114412 db@open done T·13.700809ms
+16:15:05.967765 db@close closing
+16:15:05.967934 db@close done T·166.958µs
+=============== Aug 26, 2018 (CST) ===============
+16:18:20.809686 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:18:20.810567 version@stat F·[] S·0B[] Sc·[]
+16:18:20.810604 db@open opening
+16:18:20.810692 journal@recovery F·1
+16:18:20.814723 journal@recovery recovering @1
+16:18:20.815953 memdb@flush created L0@2 N·53 S·4KiB "\x03\x95\x06..\v_I,v12":"ɣ5..n\xc5\xff,v21"
+16:18:20.828518 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+16:18:20.830725 db@janitor F·3 G·0
+16:18:20.830760 db@open done T·20.138407ms
+16:54:22.826938 db@close closing
+16:54:22.827220 db@close done T·278.558µs
+=============== Aug 28, 2018 (CST) ===============
+10:17:38.760145 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:17:38.761347 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+10:17:38.761391 db@open opening
+10:17:38.761490 journal@recovery F·1
+10:17:38.765664 journal@recovery recovering @3
+10:17:38.766855 memdb@flush created L0@5 N·13 S·1KiB "Blo..ion,v56":"r\x00\x00..w\xd9l,v62"
+10:17:38.780895 version@stat F·[2] S·5KiB[5KiB] Sc·[0.50]
+10:17:38.783814 db@janitor F·4 G·0
+10:17:38.783850 db@open done T·22.441222ms
+10:31:51.872318 db@close closing
+10:31:51.872687 db@close done T·357.802µs
